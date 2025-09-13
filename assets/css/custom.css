@@ -15,7 +15,12 @@
 }
 
 /* Constrain logo sizes so large images don't overflow */
-.header-area .logo img,
+.header-area .logo img {
+  max-height: 80px;
+  width: auto;
+  height: auto;
+}
+
 .mobile-menu-overlay .logo img {
   max-height: 48px;
   width: auto;
