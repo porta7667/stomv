@@ -14,3 +14,16 @@
   font-family: 'Ecalyars', 'Playfair Display', serif;
 }
 
+/* Constrain logo sizes so large images don't overflow */
+.header-area .logo img,
+.mobile-menu-overlay .logo img {
+  max-height: 48px;
+  width: auto;
+  height: auto;
+}
+
+.footer-logo img {
+  max-height: 56px;
+  width: auto;
+  height: auto;
+}
