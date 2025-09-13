@@ -1,0 +1,16 @@
+/* Custom overrides for site */
+
+/* Load Ecalyars font (place the file at assets/fonts/Ecalyars.ttf) */
+@font-face {
+  font-family: 'Ecalyars';
+  src: url('../fonts/Ecalyars.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Apply Ecalyars to the hero heading */
+.hero-content h1 {
+  font-family: 'Ecalyars', 'Playfair Display', serif;
+}
+
